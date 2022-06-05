@@ -386,6 +386,53 @@ body.menu-expanded button path {
   margin-block: 1.6rem;
 }
 
+#testimonials {
+  background-color: #FFFFFF;
+}
+
+/* #testimonials header h3 {
+  margin-bottom: 6rem;
+} */
+
+#testimonials .testimonial blockquote{
+  background-color: var(--primary-color-brand-light-02); 
+  text-align: left;
+
+  padding: 3.2rem;
+  border-radius: 0.4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#testimonials .testimonial blockquote cite {
+  color: var(--primary-color-brand);
+  font-weight: 700;
+  font-style: normal;
+  line-height: 134%;
+
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.swiper-slide {
+  padding: 6rem 1rem;
+  height: auto;
+}
+
+.swiper-pagination-bullet {
+  width: 1.2rem;
+  height: 1.2rem;
+
+  background-color: var(--primary-color-brand-light);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--primary-color-brand);
+}
+
 #about {
   text-align: left;
   background-color: var(--primary-color-brand-beige);
