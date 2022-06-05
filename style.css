@@ -390,10 +390,6 @@ body.menu-expanded button path {
   background-color: #FFFFFF;
 }
 
-/* #testimonials header h3 {
-  margin-bottom: 6rem;
-} */
-
 #testimonials .testimonial blockquote{
   background-color: var(--primary-color-brand-light-02); 
   text-align: left;
@@ -417,9 +413,17 @@ body.menu-expanded button path {
   gap: 1.6rem;
 }
 
-.swiper-slide {
+#testimonials .swiper {
+  z-index: 0;
+}
+
+#testimonials .swiper-slide {
   padding: 6rem 1rem;
   height: auto;
+}
+
+.swiper-pagination{
+position: relative;
 }
 
 .swiper-pagination-bullet {
