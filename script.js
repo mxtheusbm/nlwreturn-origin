@@ -7,6 +7,7 @@ function onScroll() {
 
   activateMenuAtCurrentSection(home)
   activateMenuAtCurrentSection(services)
+  activateMenuAtCurrentSection(testimonials)
   activateMenuAtCurrentSection(about)
   activateMenuAtCurrentSection(contact)
 }
@@ -68,6 +69,9 @@ ScrollReveal({
   #services header,
   #services .content,
   #services .card,
+  #testimonials header,
+  #testimonials content,
+  #testimonials .brandsThatTrust,
   #about,
   #about header,
   #about .content
@@ -80,10 +84,30 @@ const swiper = new Swiper('.swiper', {
   },
   mousewheel: true,
   keyboard: true,
+  grabCursor: true,
   breakpoints: {
     1024: {
       slidesPerView: 2,
       setWrapperSize: true
+    }
+  }
+})
+
+const swiperBrands = new Swiper('.swiper-brands', {
+  slidesPerView: 1,
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false
+  },
+  effect: 'flip',
+  flipEffect: {
+    slideShadows: false
+  },
+  breakpoints: {
+    1024: {
+      slidesPerView: 5,
+      effect: 'slide',
+      enabled: false
     }
   }
 })

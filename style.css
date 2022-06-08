@@ -60,7 +60,7 @@ section {
   padding-block: 10rem;
 }
 
-section header h1 {
+section h1 {
   font-size: 3.4rem;
   line-height: 130%;
 
@@ -69,7 +69,7 @@ section header h1 {
   margin-bottom: 2.4rem;
 }
 
-section header h2 {
+section h2 {
   font-size: 1.4rem;
   font-weight: bold;
   line-height: 150%;
@@ -81,7 +81,7 @@ section header h2 {
   margin-bottom: 1.6rem;
 }
 
-section header h3 {
+section h3 {
   font-size: 3rem;
   line-height: 3.9rem;
 
@@ -332,7 +332,7 @@ body.menu-expanded button path {
   object-position: 0 2rem;
 }
 
-#home .datas {
+#home .stats {
   width: 100%;
   padding-block: 4rem;
   margin-inline: auto;
@@ -348,7 +348,7 @@ body.menu-expanded button path {
   
 }
 
-#home .data span {
+#home .stat span {
   display: inline-block;
   
   font-size: 4.8rem;
@@ -360,7 +360,7 @@ body.menu-expanded button path {
   margin-bottom: 0.4rem;
 }
 
-#home .data p {
+#home .stat p {
   margin: 0;
   
   font-size: 1.6rem;
@@ -397,7 +397,7 @@ body.menu-expanded button path {
   background-color: #FFFFFF;
 }
 
-#testimonials header h3 {
+#testimonials h3 {
   margin-bottom: 6rem;
 }
 
@@ -430,11 +430,11 @@ body.menu-expanded button path {
 
 #testimonials .swiper-slide {
   height: auto;
-  margin-bottom: 4.9rem;
 }
 
 #testimonials .swiper-pagination{
 position: static;
+margin-top: 4.8rem;
 margin-bottom: 10rem;
 }
 
@@ -449,19 +449,49 @@ margin-bottom: 10rem;
   background-color: var(--primary-color-brand);
 }
 
-#testimonials .brandsThatTrust h4 {
+#testimonials h4 {
   margin-bottom: 4.8rem;
 }
 
 #testimonials .brands {
   display: flex;
-  /* flex-direction: column; */
+  align-items: center;
+}
+
+/* #testimonials .banner {
+  width: 100%;
+  padding-block: 4rem;
+  margin-inline: auto;
+
+  background-color: var(--primary-color-brand);
+
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
-  flex-wrap: wrap;
-
 }
+
+#testimonials .banner h3 {
+  color: #FFFFFF;
+  padding-inline: 2rem;
+}
+
+#testimonials .banner .button {
+  background-color: #FFFFFF;
+  color: var(--primary-color-brand);
+}
+
+#testimonials .banner .button:hover {
+  background-color: var(--primary-color-brand);
+  color: #FFFFFF;
+  filter:brightness(1.2);
+}
+
+#testimonials .banner .button:hover path {
+  fill: #FFFFFF;
+} */
 
 #about {
   text-align: left;
@@ -605,7 +635,7 @@ footer .social-links {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
+    width: 68%;
   }
 
   nav#navigation .menu ul:nth-child(1) {
@@ -727,7 +757,7 @@ footer .social-links {
     font-size: 1.8rem;
   }
 
-  #home .datas {
+  #home .stats {
     grid-area: C;
 
     flex-direction: row;
@@ -736,11 +766,11 @@ footer .social-links {
     padding: 6rem;
 }
 
-  #home .datas .data + .data {
+  #home .stats .stat + .stat {
     border-left: 1px solid var(--primary-color-brand);
   }
 
-  #home .datas .data {
+  #home .stats .stat {
     flex: 1;
   }
 
