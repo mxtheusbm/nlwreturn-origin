@@ -72,7 +72,6 @@ ScrollReveal({
   #testimonials header,
   #testimonials content,
   #testimonials .brandsThatTrust,
-  .banner
   #about,
   #about header,
   #about .content
@@ -90,25 +89,6 @@ const swiper = new Swiper('.swiper', {
     1024: {
       slidesPerView: 2,
       setWrapperSize: true
-    }
-  }
-})
-
-const swiperBrands = new Swiper('.swiper-brands', {
-  slidesPerView: 1,
-  autoplay: {
-    delay: 2000,
-    disableOnInteraction: false
-  },
-  effect: 'flip',
-  flipEffect: {
-    slideShadows: false
-  },
-  breakpoints: {
-    1024: {
-      slidesPerView: 5,
-      effect: 'slide',
-      enabled: false
     }
   }
 })
