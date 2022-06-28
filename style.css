@@ -458,10 +458,9 @@ margin-bottom: 10rem;
   align-items: center;
 }
 
-/* #testimonials .banner {
+.banner {
   width: 100%;
   padding-block: 4rem;
-  margin-inline: auto;
 
   background-color: var(--primary-color-brand);
 
@@ -471,27 +470,30 @@ margin-bottom: 10rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  position: relative;
+  z-index: 150;
 }
 
-#testimonials .banner h3 {
+.banner h3 {
   color: #FFFFFF;
   padding-inline: 2rem;
 }
 
-#testimonials .banner .button {
+.banner .button {
   background-color: #FFFFFF;
   color: var(--primary-color-brand);
 }
 
-#testimonials .banner .button:hover {
+.banner .button:hover {
   background-color: var(--primary-color-brand);
   color: #FFFFFF;
   filter:brightness(1.2);
 }
 
-#testimonials .banner .button:hover path {
+.banner .button:hover path {
   fill: #FFFFFF;
-} */
+}
 
 #about {
   text-align: left;

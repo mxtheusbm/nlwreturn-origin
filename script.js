@@ -72,6 +72,7 @@ ScrollReveal({
   #testimonials header,
   #testimonials content,
   #testimonials .brandsThatTrust,
+  .banner
   #about,
   #about header,
   #about .content
